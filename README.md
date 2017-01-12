@@ -1,2 +1,2 @@
-# mphys-latex
-Repo to hold latex backups of my masters deliverables!
+# mphys-presentation-latex
+Repo to hold latex backups of my masters project presentation!
