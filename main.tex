@@ -17,6 +17,21 @@
 
 \maketitle
 
+%----------------- This Project -------------------------------------------------------
+
+\begin{frame}{This Project}
+\begin{itemize}
+    \item Analyse data from proton knockout experiments using $^{208}Pb$ and $^{12}C$ targets.
+    \item Determine masses of residual exotic nuclei.
+    \item Determine number of protons knocked out per reaction.
+    \item (Possibly deduce energy level structures.)
+    \item Provide experimental data to constrain path of the r-process and test
+    theoretical models.
+\end{itemize}
+
+\end{frame}
+
+
 %------------------ Stellar Nucleosynthesis ---------------------------------------
 
 \begin{frame}{Stellar Nucleosynthesis}
@@ -38,6 +53,7 @@
 \begin{frame}{R-Process}
 
 \begin{itemize}
+    \item Very high flux of neutrons available.
     \item Neutron capture rate``rapid" relative to $\beta$-decay rate.
 \end{itemize}
 
@@ -48,33 +64,36 @@
 \end{frame}
 
 %----------------- R-Process 2 -------------------------------------------------------
+\begin{frame}{Shell Influences}
+    \begin{itemize}
+        \item Pile up of abundance along shell closures.
+    \end{itemize}
+    
+       \centering
+        \includegraphics[height = 5.5cm]{RProcessPath}
+       \\{\tiny Seeger, P.A., Fowler, W.A., Clayton, D.D. \textit{AstroPhys. J. Suppl} \textbf{11} (1965).}
+       
+       
+\end{frame}
+
+%------------------ R-Process Problems -------------------
 
 \begin{frame}{The Problem}
 
 \begin{itemize}
     \item R-Process path wonders very far from stability.
+    \item Theoretical models do not predict observed abundance correctly.
     \item Majority of nuclei never observed.
     \item Very little experimental data on exotic nuclei.
     \item Does shell structure even persist for exotic nuclei?
 \end{itemize}
 
-        \centering
-        \includegraphics[height = 5.5cm]{RProcessPath}
-       \\{\tiny Seeger, P.A., Fowler, W.A., Clayton, D.D. \textit{AstroPhys. J. Suppl} \textbf{11} (1965).}
+\centering
+\includegraphics[height =5cm]{Abundances}
+     \\{\tiny Burbidge, E.M., Burbidge, G.R., Fowler, W.A., Hoyle, F. \textit{Rev. Mod. Phys.} \textbf{29} (1957).}
 
 \end{frame}
 
-%----------------- This Project -------------------------------------------------------
-
-\begin{frame}{This Project}
-\begin{itemize}
-    \item Analyse data from proton knockout experiments using $^{208}Pb$ and $^{12}C$ targets.
-    \item Determine number of protons knocked out per reaction.
-    \item Determine masses of residual exotic nuclei.
-    \item (Possibly deduce energy level structure.)
-\end{itemize}
-
-\end{frame}
 
 %---------------- Proton Knockout at MAMI ---------------------------------------------
 
@@ -83,7 +102,7 @@
     \item Use electron beam to produce photons by Bremstrahlung and direct onto target.
     \item Photons knockout nucleons via several processes (eg. $\pi^{0}$ production).
     \item Use Crystal Ball detector and Particle Identification Detector (PID) to measure knockout proton energies.
-    \item Reconstruct mass of nuclei.
+    \item Reconstruct missing mass of nuclei.
 \end{itemize}
 
     \includegraphics[height = 4cm, right]{openCB}
@@ -95,11 +114,19 @@
 
 \begin{itemize}
     \item Energy lost escaping target, travelling through PID etc.
+    \item "Interesting" signal lost in noise.
     \item Use Geant4 Monte-Carlo simulation to model energy losses and calculate corrections.
 \end{itemize}
 
     \centering
     \includegraphics[height= 5cm]{AllIn}
+
+\end{frame}
+
+\begin{frame}{Energy Calibration}
+
+\centering
+\includegraphics[height = 7cm]{3DCarbon100k}
 
 \end{frame}
 
